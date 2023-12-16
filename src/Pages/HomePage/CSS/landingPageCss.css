@@ -1,0 +1,18 @@
+*
+{
+    background-color: #121619;
+}
+.ld_introduction{
+    display: inline-block;
+    color: white;
+
+}
+.ld_introduction button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 11px;
+}

@@ -1,13 +1,26 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+* {
     background-color: #121619;
+    font-family: 'Roboto Serif', serif;
 }
-.ld_introduction{
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    text-align: left;
+}
+
+.ld_introduction {
     display: inline-block;
     color: white;
-
+    text-align: left;
+    padding: 20%;
+    
+    
 }
-.ld_introduction button{
+
+.ld_introduction button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,4 +28,48 @@
     border-radius: 20px;
     padding: 5px;
     font-size: 11px;
+    
+}
+.ld_introduction h1{
+    line-height: .2;
+  font-size: 40px;
+
+}
+
+
+
+button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width:.5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .ld_showcase img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+h4{
+    line-height: .5;
+    color: #075c66;
+    font-size: 20px;
+    
+}
+h6{
+    line-height: 1;
+    color: white;
+    font-size: 16px; 
+    font-family: 'Caveat', medium;
+}
+.ld_showcase{
+    display: inline-block;
+    color: white;
+    
+    padding-top: 15%;
+    padding-right: 10px;
 }

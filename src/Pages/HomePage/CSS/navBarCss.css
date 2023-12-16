@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 .navbar{
 
     background-color: #121619;;
@@ -7,6 +9,7 @@
 }
 .navbar_logo{
 font-size: 15px;
+font-family: 'Rubik bubbles';
 }
 .navbar_items
 {

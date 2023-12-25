@@ -1,0 +1,13 @@
+body{
+    
+}
+.main-div{
+    width: 100% ;
+    overflow:auto;
+}
+.second-div{
+    float:left; width: 80%
+}
+.third-div{
+    float:right;
+}
